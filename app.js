@@ -32,7 +32,6 @@ readline.question(`Please Provide Input Number: `, inp => {
             if(count === 0){
                 console.log('No matches found for the given input'); //No matches found scenario
             }
-            console.log(count);
         });
         readline.close() //Closing the readline
     }
