@@ -9,7 +9,7 @@ const readline = require('readline').createInterface({
 readline.question(`Please Provide Input Number: `, inp => {
     const input = Number(inp); //Converting input to a Number and removing whitespaces
     if(isNaN(input) || !input){ //Validation if a sting or null values are entered
-        console.log('Please provide only integer values greater than 0 and try again');
+        console.log('Please provide only integer value greater than 0 and try again');
         readline.close()
     }else{
         const fetchData = fetch('https://mach-eight.uc.r.appspot.com/') //API Call, downloading raw data from MachEight URL
