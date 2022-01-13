@@ -1,7 +1,10 @@
 # macheight-task
 ## This task has been coded using Node.js
 
-Please follow the below steps to excute the task.
+Please follow the below steps to excute the task. Once the repository has been cloned we will be seeing mainly 2 files.
+
+app.js: Implementation logic
+package.json: Generic information and external packages used to complete the task (used to install the dependencies)
 
 1. Please make sure that node and npm are installed in the system. We can check the versions installed by using following commands
     a. node -v
