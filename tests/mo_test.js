@@ -2,7 +2,7 @@ const assert = require('assert')
 
 describe('Input Validations',() => {
     it('Validating Input', () => {
-        const input = Number(X);
+        const input = Number(139);
         console.log(input);
         if(isNaN(input) || !input){
             assert(false)
