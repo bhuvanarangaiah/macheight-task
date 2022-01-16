@@ -1,4 +1,5 @@
 # macheight-task
+
 ## This task has been coded using Node.js
 
 Please follow the below steps to excute the task. Once the repository has been cloned we will be seeing mainly 2 files.
@@ -7,13 +8,13 @@ app.js: Implementation logic
 package.json: Generic information and external packages used to complete the task (used to install the dependencies)
 
 1. Please make sure that node and npm are installed in the system. We can check the versions installed by using following commands
-    a. node -v
-    
-    <img width="453" alt="Screen Shot 2022-01-13 at 4 30 59 PM" src="https://user-images.githubusercontent.com/97316707/149419353-7e925d75-d869-41b4-8d1c-2c26201bd78d.png">
-    
-    b. npm -v
-    
-    <img width="434" alt="Screen Shot 2022-01-13 at 4 00 20 PM" src="https://user-images.githubusercontent.com/97316707/149419434-9a2d70ff-cb92-4d40-8147-27f519f27f54.png">
+   a. node -v
+
+   <img width="453" alt="Screen Shot 2022-01-13 at 4 30 59 PM" src="https://user-images.githubusercontent.com/97316707/149419353-7e925d75-d869-41b4-8d1c-2c26201bd78d.png">
+
+   b. npm -v
+
+   <img width="434" alt="Screen Shot 2022-01-13 at 4 00 20 PM" src="https://user-images.githubusercontent.com/97316707/149419434-9a2d70ff-cb92-4d40-8147-27f519f27f54.png">
 
 2. In the terminal or command line please selcect the Directory where sources are present
 
@@ -27,5 +28,19 @@ package.json: Generic information and external packages used to complete the tas
 <img width="460" alt="Screen Shot 2022-01-13 at 4 11 08 PM" src="https://user-images.githubusercontent.com/97316707/149419660-1a1f0362-b7aa-4084-afc9-3c94db5fc67c.png">
 
 7. Output will be displayed in the console.
+
+## UAT Test Cases
+
+1. Please install mocha library as development area dependencies using the following command
+
+   "npm i mocha --save-dev"
+
+2. In the package.json file a key has been already created with the to run the the test. Please use the following commands.
+
+   "npm run test" or "npm test"
+
+3. The input has to be manually passed in the file which is present in the directory "tests/mo_test.js"
+
+4. Asessrtion of the test case will be displayed in the terminal window.
 
 Thank you !!

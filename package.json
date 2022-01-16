@@ -6,9 +6,12 @@
   "version": "1.0.0",
   "description": "MachEight Task",
   "main": "app.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^9.1.4"
+  },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "mocha tests/mo_test.js"
   },
   "author": "Bhuvana Rangaiah Cheemala Marri",
   "license": "ISC"
